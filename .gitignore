@@ -1,0 +1,28 @@
+# SSH credentials & keys files
+**/id_rsa
+**/id_ecdsa
+**/id_ed25519
+**/*.pem
+**/*.pub
+**/*.key
+
+# Local OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# Environment & configuration credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.config.json.private
+
+# Git history & temp files
+*.log
+*.tmp
+.idea/
+.vscode/
+node_modules/
+vendor/
